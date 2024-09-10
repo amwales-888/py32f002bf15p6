@@ -13573,9 +13573,7 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" value="RESET"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="20ma"/>
@@ -13588,6 +13586,8 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y1" library="angelo-DSC6083CI1A-350K000T" deviceset="DSC6083CI1A-350K000T" device=""/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" value="RESET"/>
 </parts>
 <sheets>
 <sheet>
@@ -13716,15 +13716,8 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <instance part="GND3" gate="1" x="-27.94" y="60.96" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="114.3" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.8014" y="16.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="117.602" y="16.51" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="+3V4" gate="G$1" x="114.3" y="38.1" smashed="yes">
 <attribute name="VALUE" x="111.76" y="33.02" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="S2" gate="G$1" x="114.3" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.776" y="-2.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="GND6" gate="1" x="114.3" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="111.76" y="-15.24" size="1.778" layer="96"/>
@@ -13765,6 +13758,13 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <instance part="Y1" gate="G$1" x="33.02" y="83.82" smashed="yes">
 <attribute name="NAME" x="36.83" y="91.44" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="36.83" y="88.9" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R5" gate="G$1" x="114.3" y="-2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.8014" y="-6.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="117.602" y="-6.35" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="S3" gate="G$1" x="114.3" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.776" y="20.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -13843,9 +13843,9 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="114.3" y1="-7.62" x2="114.3" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="LED" gate="G$1" pin="C"/>
@@ -14018,9 +14018,9 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="25.4" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="S3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
@@ -14146,12 +14146,12 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultr
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="15.24" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="5.08" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
 <junction x="114.3" y="5.08"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="S3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="1">
