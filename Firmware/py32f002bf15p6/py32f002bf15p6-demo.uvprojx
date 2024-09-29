@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>PY32F002Bx5 RCC_HSI48M_SUPPORT</Define>
               <Undefine></Undefine>
-              <IncludePath>.\PY32F002B_LL_Driver\Inc;.\PY32F002B_LL_BSP\Inc</IncludePath>
+              <IncludePath>.\Libraries\PY32F002B_LL_Driver\Inc;.\Libraries\PY32F002B_LL_BSP\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -382,47 +382,32 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source</GroupName>
+          <GroupName>User</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Demo\main.c</FilePath>
+              <FilePath>.\User\main.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Demo\py32f002b_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>py32f002b_it.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Demo\py32f002b_it.h</FilePath>
-            </File>
-            <File>
-              <FileName>py32_assert.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Demo\py32_assert.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Demo\main.h</FilePath>
+              <FilePath>.\User\py32f002b_it.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_ll_utils.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\PY32F002B_LL_Driver\Src\py32f002b_ll_utils.c</FilePath>
+              <FilePath>.\Libraries\PY32F002B_LL_Driver\Src\py32f002b_ll_utils.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_bsp_clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\PY32F002B_LL_BSP\Src\py32f002b_bsp_clock.c</FilePath>
+              <FilePath>.\Libraries\PY32F002B_LL_BSP\Src\py32f002b_bsp_clock.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_bsp_printf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\PY32F002B_LL_BSP\Src\py32f002b_bsp_printf.c</FilePath>
+              <FilePath>.\Libraries\PY32F002B_LL_BSP\Src\py32f002b_bsp_printf.c</FilePath>
             </File>
           </Files>
         </Group>
