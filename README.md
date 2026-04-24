@@ -2,18 +2,20 @@
 Simple breakout board for py32f002bf15p6 tssop20 24MHz 24kB Flash 2kB Ram 18 IOs MCU
 
 - 3.3v LDO powered from 5V USB.
-- UART connectivity to USB via ch340 optionally connected to pins PA3/PA4 using jumpers.
+- UART connectivity to USB via ch340 optionally connected to pins PA6/PA7 using jumpers.
 - ARM SWD programming interface header.
 - All other pins are broken out to headers.
-- 1 LEDS optionally connected to pin PA1 using jumper.
-- 1 Button with pulldown optionally connected to pin PA0 using jumper.
+- 1 LED optionally connected to pin PB4 using jumper.
+- 1 Button with pulldown optionally connected to pin PB5 using jumper.
 - 1 Button connected to RESET pin, pulled high.
 
 <table>
   <tr>
-    <td> <img src="Hardware/py32f002bf15p6/images/py32f002bf15p6-Top.png"></td>
+    <td> <img src="Hardware/py32f002bf15p6/KiCAD/images/py32f002bf15p6-top.jpg"></td>
+    <td> <img src="Hardware/py32f002bf15p6/KiCAD/images/py32f002bf15p6-bot.jpg"></td>
   </tr>
   <tr>
-    <td> <img src="Hardware/py32f002bf15p6/images/py32f002bf15p6-Bot.png"></td>
+    <td> <img src="Hardware/py32f002bf15p6/KiCAD/images/Capture-top.JPG"></td>
+    <td> <img src="Hardware/py32f002bf15p6/KiCAD/images/Capture-bot.JPG"></td>
   </tr>
 </table>
