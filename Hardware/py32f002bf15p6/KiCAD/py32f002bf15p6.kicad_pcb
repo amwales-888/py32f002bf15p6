@@ -8336,6 +8336,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "SW0"
+		(at 172.68 100.54 0)
+		(layer "F.SilkS")
+		(uuid "0fb4ae6a-0574-44e4-9199-74746c4d0f24")
+		(effects
+			(font
+				(size 0.7112 0.7112)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "LED0"
 		(at 172.68 85.74 0)
 		(layer "F.SilkS")
@@ -8869,7 +8882,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "JP2 - Connect SW0:A6"
+	(gr_text "JP2 - Connect SW0:B5"
 		(at 173.68 88.64 0)
 		(layer "B.SilkS")
 		(uuid "3fbafb96-e6a8-476a-b7a0-1fa3667316f7")
