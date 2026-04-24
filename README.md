@@ -9,5 +9,11 @@ Simple breakout board for py32f002bf15p6 tssop20 24MHz 24kB Flash 2kB Ram 18 IOs
 - 1 Button with pulldown optionally connected to pin PA0 using jumper.
 - 1 Button connected to RESET pin, pulled high.
 
-![Board Top](Hardware/py32f002bf15p6/images/py32f002bf15p6-Top.png)
-![Board Bottom](Hardware/py32f002bf15p6/images/py32f002bf15p6-Bot.png)
+<table>
+  <tr>
+    <td> <img src="Hardware/py32f002bf15p6/images/py32f002bf15p6-Top.png"></td>
+  </tr>
+  <tr>
+    <td> <img src="Hardware/py32f002bf15p6/images/py32f002bf15p6-Bot.png"></td>
+  </tr>
+</table>
