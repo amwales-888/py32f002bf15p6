@@ -1,0 +1,313 @@
+(footprint "SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SSOP, 10 Pin (http://download.py32.org/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/zh-CN/PY32F002A%20%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_Rev1.0.pdf#page=44), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SSOP SO ESSOP-10")
+	(property "Reference" "U1"
+		(at -0.0075 0.8 180)
+		(layer "F.SilkS")
+		(uuid "6624398e-dca1-4ada-b4f5-10b4f42969fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CH340K"
+		(at 0 3.4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8428504b-f8b1-47cc-a423-80a89c38cc18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86657a0b-0cee-4ad0-9ec1-762e2fc2a31e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB serial converter, UART, SSOP-10"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "324159f1-53d0-4c25-aca6-9e7b4705d766")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.06 -2.56)
+		(end 2.06 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3221bf47-319d-46f6-a102-5e5e7fb7315c")
+	)
+	(fp_line
+		(start 2.06 2.56)
+		(end -2.06 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37a586c3-3ab8-488b-b8ba-0086e297fcdc")
+	)
+	(fp_poly
+		(pts
+			(xy -4.1 -2) (xy -4.43 -1.76) (xy -4.43 -2.24)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "18de7ab3-7388-4bd8-8650-1f77824005dd")
+	)
+	(fp_line
+		(start -3.73 -2.55)
+		(end -2.2 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc292a81-a23b-4dbc-9fbb-9dca44f7830e")
+	)
+	(fp_line
+		(start -3.73 2.55)
+		(end -3.73 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95129914-f439-4994-acdf-3e055bd3fd42")
+	)
+	(fp_line
+		(start -2.2 -2.7)
+		(end 2.2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72aba3d9-7efe-429a-89e6-8aace40e9094")
+	)
+	(fp_line
+		(start -2.2 -2.55)
+		(end -2.2 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d46f4c3-0d62-42e6-8d13-186c00a0d742")
+	)
+	(fp_line
+		(start -2.2 2.55)
+		(end -3.73 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1c360c6-0191-43d6-a560-69c5753bccc7")
+	)
+	(fp_line
+		(start -2.2 2.7)
+		(end -2.2 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e19ba8e-6bb6-42cd-981c-8c4e8fba7de0")
+	)
+	(fp_line
+		(start 2.2 -2.7)
+		(end 2.2 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30b8ec65-d299-41a1-a63b-6f5cbf91470a")
+	)
+	(fp_line
+		(start 2.2 -2.55)
+		(end 3.73 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c8dc026-23e7-4632-a978-907ed7bbf645")
+	)
+	(fp_line
+		(start 2.2 2.55)
+		(end 2.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c063560b-5f0d-497a-82fc-97363a7c983d")
+	)
+	(fp_line
+		(start 2.2 2.7)
+		(end -2.2 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d96dbe5-b725-4aba-a89d-32886e3ad416")
+	)
+	(fp_line
+		(start 3.73 -2.55)
+		(end 3.73 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f8bdfe1-20e6-40f0-87a0-edb20fc92020")
+	)
+	(fp_line
+		(start 3.73 2.55)
+		(end 2.2 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca9007d9-1fb3-42a3-a1a8-505c6d4d8bb5")
+	)
+	(fp_poly
+		(pts
+			(xy -1.95 -1.475) (xy -1.95 2.45) (xy 1.95 2.45) (xy 1.95 -2.45) (xy -0.975 -2.45)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a8db0ebe-aead-44bb-8cae-0a7b1b759438")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "09c15e71-460f-4478-bf6d-ac138f51161a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.75 -2)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "72c41995-fc3f-45b5-b1d0-5f22fe4cfd6b")
+	)
+	(pad "2" smd roundrect
+		(at -2.75 -1)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "df093466-9d11-4e6c-a5f2-3d50b8448b24")
+	)
+	(pad "3" smd roundrect
+		(at -2.75 0)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "86057349-f1cd-4960-b403-db215639cd70")
+	)
+	(pad "4" smd roundrect
+		(at -2.75 1)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ce87756b-073e-4be5-9202-aa6b120f1e0c")
+	)
+	(pad "5" smd roundrect
+		(at -2.75 2)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "81371307-2851-4845-8876-b23022765c32")
+	)
+	(pad "6" smd roundrect
+		(at 2.75 2)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2f55fe29-b788-44ea-a74b-8ce695d88b60")
+	)
+	(pad "7" smd roundrect
+		(at 2.75 1)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1ea863bb-c307-4de0-bca9-b036132e24a0")
+	)
+	(pad "8" smd roundrect
+		(at 2.75 0)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "97f6206a-effd-41ad-a377-a3037e21bd92")
+	)
+	(pad "9" smd roundrect
+		(at 2.75 -1)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8fc07184-d7be-4fcb-92c5-bd49a7fcb4ee")
+	)
+	(pad "10" smd roundrect
+		(at 2.75 -2)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b5514ea9-3a09-4317-aa8b-9d70a334984f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
