@@ -28,6 +28,7 @@ Resources
 <li>https://github.com/IOsetting/py32f0-template/tree/main</li>
 <li>https://www.cnblogs.com/milton/p/17111286.html</li>
 <li>https://www.cnblogs.com/milton/p/18168592</li>
+<li>https://www.lcsc.com/product-detail/C7469098.html</li>
 
 <BR>
 
