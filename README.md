@@ -28,3 +28,9 @@ Resources
 <li>https://github.com/IOsetting/py32f0-template/tree/main</li>
 <li>https://www.cnblogs.com/milton/p/17111286.html</li>
 <li>https://www.cnblogs.com/milton/p/18168592</li>
+
+<BR>
+
+Notes - The attached firmware was written for the deprecated board produced with EAGLE, since then I have replaced the 
+oscillator with a crystal and may have changed the IO pin for LED0/SW0 review the code before using it. I will update 
+it when I have time.
