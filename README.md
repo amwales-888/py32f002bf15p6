@@ -19,3 +19,12 @@ Simple breakout board for py32f002bf15p6 tssop20 24MHz 24kB Flash 2kB Ram 18 IOs
     <td> <img src="Hardware/py32f002bf15p6/KiCAD/images/Capture-bot.JPG"></td>
   </tr>
 </table>
+
+Resources
+
+<li>https://www.puyasemi.com/en/py32_series.html</li>
+<li>https://www.eevblog.com/forum/microcontrollers/$0-11-py32f002a-m0-24mhz-320kb-actually-324kb-more-peripherals/</li>
+<li>https://www.cnblogs.com/milton/p/18168592</li>
+<li>https://github.com/IOsetting/py32f0-template/tree/main</li>
+<li>https://www.cnblogs.com/milton/p/17111286.html</li>
+<li>https://www.cnblogs.com/milton/p/18168592</li>
